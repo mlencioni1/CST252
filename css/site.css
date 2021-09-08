@@ -1,0 +1,13 @@
+html, main {
+  background-color: #b8d6c9;
+  margin: 20px;
+}
+
+h1,p {
+  text-align: center;
+}
+
+img .col-img {
+  transition: 2s;
+  filter: hue-rotate(90deg);
+}

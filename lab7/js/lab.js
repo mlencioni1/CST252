@@ -1,6 +1,6 @@
 // Lab7.js - Functions
-// Our goal is to create, define, and identify arrays and objects.
-// @link   img/lab6/index.html
+// Our goal is to create Functions.
+// @link   img/lab7/index.html
 // @file   This files defines the MyClass class.
 // @author MatthewLencioni.
 // @since  09.22.2021

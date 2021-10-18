@@ -7,7 +7,7 @@
 
 //Stolen from Wes Modes (https://wmodes.github.io/cst252/lab12/index.html)
 //since I don't remember going over this in class,
-// it's due at 9am and its 2am, so a man has to use his resources XD.
+//it's due at 9am and its 2am, so a man has to use his resources XD.
 
 maxFactors = 4;
 

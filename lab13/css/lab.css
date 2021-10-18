@@ -1,0 +1,13 @@
+html, main{
+  background-color: navy;
+}
+
+#title h1{
+  text-align: left;
+  color: gold;
+  text-shadow: 2px 3px black;
+}
+
+body {
+  padding: 20px;
+}

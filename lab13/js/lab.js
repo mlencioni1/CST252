@@ -5,69 +5,77 @@
 // @author MatthewLencioni.
 // @since  10.17.2021
 
+var total = 0;
 
 // QUESTION 1
-$("#question1")
 $("#quiet").click(function(){
   $("#leveled").hide();
   $("#loud").hide();
-  var n = $("#quiet").val(1) ;
+  total += 1;
+  $("#quiet").attr('disable', true);
 });
 $("#leveled").click(function(){
   $("#quiet").hide();
   $("#loud").hide();
-  var n = $("#leveled").val(2);
+  total += 2;
+  $("#leveled").attr('disable', true);
 });
 $("#loud").click(function(){
   $("#leveled").hide();
   $("#quiet").hide();
-  $("#loud").val(3);
+  total += 3;
+  $("#loud").attr('disable', true);
 });
 
 //QUESTION 2
 $("#snack").click(function(){
-  $("#snack").val(1);
   $("#plate").hide();
   $("#seconds").hide();
+  total += 1;
+  $("#snack").attr('disable', true);
 });
 $("#plate").click(function(){
-  $("#plate").val(2);
   $("#snack").hide();
   $("#seconds").hide();
+  total += 2;
+  $("#plate").attr('disable', true);
 });
 $("#seconds").click(function(){
-  $("#seconds").val(3);
   $("#snack").hide();
   $("#plate").hide();
+  total += 3;
+  $("#seconds").attr('disable', true);
 });
 
 // Question 3
 $("#middle").click(function(){
-  $("#middle").val(1);
   $("#firm").hide();
   $("#soft").hide();
+  total += 1;
+  $("#middle").attr('disable', true);
 });
 $("#soft").click(function(){
-  $("#soft").val(2);
   $("#firm").hide();
   $("#middle").hide();
+  total += 2;
+  $("#soft").attr('disable', true);
 });
 $("#firm").click(function(){
-  $("#firm").val(3);
   $("#soft").hide();
   $("#middle").hide();
+  total += 3;
+  $("#firm").attr('disable', true);
 });
 
 //Combine answers to get sum value
-
 
 // final output
 $("#final").click(function(){
   $("#output").empty();
   // 1-3: Baby Bear, 4-6: Mama Bear, 7-9 Papa Bear
-  if (sum < 3) {
+  if (total <= 4) {fd
   $("#output").append("Baby Bear's Chair Fits You!");
-  } else if (sum > 7){
+} else if (total >= 8){
   $("#output").append("Papa Bear's Chair Fits You!");
   } else {
   $("#output").append("Mama Bear's Chair Fits You!");

@@ -73,7 +73,7 @@ $("#firm").click(function(){
 $("#final").click(function(){
   $("#output").empty();
   // 1-3: Baby Bear, 4-6: Mama Bear, 7-9 Papa Bear
-  if (total <= 4) {fd
+  if (total <= 4) {
   $("#output").append("Baby Bear's Chair Fits You!");
 } else if (total >= 8){
   $("#output").append("Papa Bear's Chair Fits You!");

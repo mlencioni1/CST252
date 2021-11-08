@@ -1,0 +1,12 @@
+body,main {
+  background-color: white;
+}
+
+div.col {
+  margin: 10px;
+  box-shadow: 1px 1px 8px black;
+}
+
+p{
+  text-align: left;
+}

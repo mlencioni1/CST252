@@ -1,9 +1,9 @@
-// Lab16.js - JavaScript CLasses and Objects
-// Our goal is to use JS classes and objects .
-// @link   img/lab16/index.html
+// Lab17.js - Object Oriented design
+// Our goal is learn object oriented design .
+// @link   img/lab17/index.html
 // @file   This files defines the MyClass class.
 // @author MatthewLencioni.
-// @since  11.01.2021
+// @since  11.03.2021
 
 class Vehicle{
   constructor(newMake,newModel, newAge, newColor){
